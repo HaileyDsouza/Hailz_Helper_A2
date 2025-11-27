@@ -16,7 +16,7 @@ The user can type a question, optionally add their own notes, choose a response 
 
 The tone is friendly and feels like a study buddy who just wants you to understand things.
 
-<img width="852" height="783" alt="image" src="https://github.com/user-attachments/assets/c07fa0fd-c4be-4572-bbcf-1d48e2f62f9f" />
+      <img width="852" height="783" alt="image" src="https://github.com/user-attachments/assets/c07fa0fd-c4be-4572-bbcf-1d48e2f62f9f" />
 
 ## Question Demo
 <p align="center">
@@ -25,17 +25,17 @@ The tone is friendly and feels like a study buddy who just wants you to understa
 
 ## Summary Demo
 <p align="center">
-  <img src="assets/summary.gif" width="650">
+  <img src="assets/summary.gif" width="800">
 </p>
 
 ## Quiz Demo
 <p align="center">
-  <img src="assets/quiz.gif" width="650">
+  <img src="assets/quiz.gif" width="800">
 </p>
 
 ## Explaination Demo
 <p align="center">
-  <img src="assets/explain.gif" width="650">
+  <img src="assets/explain.gif" width="800">
 </p>
 
 ## Core Feature
@@ -76,10 +76,10 @@ The app includes:
   - Error handling so the app never crashes in the UI
 
 <p align="center">
-  <img src="assets/saftey.gif" width="650">
+  <img src="assets/saftey.gif" width="800">
 </p>
 
-<img width="866" height="636" alt="image" src="https://github.com/user-attachments/assets/754a4834-425a-4b36-8438-0c0a2064fdb0" />
+    <img width="866" height="636" alt="image" src="https://github.com/user-attachments/assets/754a4834-425a-4b36-8438-0c0a2064fdb0" />
 
 ## Telemetry
 Each request logs:
