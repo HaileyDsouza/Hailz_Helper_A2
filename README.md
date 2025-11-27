@@ -1,0 +1,1 @@
+# Hailz Helper – A2 LLM App

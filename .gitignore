@@ -1,5 +1,40 @@
+# --- Environment variables ---
 .env
-cache/
+.env.local
+.env.*.local
+
+# --- Python cache & build files ---
 __pycache__/
-requests.log
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+
+# --- Logs & telemetry ---
+logs/
+*.log
+requests.log
+
+# --- RAG / app cache ---
+cache/
+cache/*.json
+
+# --- Model / embedding cache (if created later) ---
+embeddings/
+*.db
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+
+# --- Node (if front-end grows later) ---
+node_modules/
+
+# --- VS Code ---
+.vscode/
