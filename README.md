@@ -16,7 +16,12 @@ The user can type a question, optionally add their own notes, choose a response 
 
 The tone is friendly and feels like a study buddy who just wants you to understand things.
 
-<img width="852" height="783" alt="image" src="https://github.com/user-attachments/assets/c07fa0fd-c4be-4572-bbcf-1d48e2f62f9f" />
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/c07fa0fd-c4be-4572-bbcf-1d48e2f62f9f" 
+    width="700"
+  />
+</p>
 
 ## Question Demo
 <p align="center">
@@ -79,7 +84,12 @@ The app includes:
   <img src="assets/saftey.gif" width="800">
 </p>
 
-<img width="866" height="636" alt="image" src="https://github.com/user-attachments/assets/754a4834-425a-4b36-8438-0c0a2064fdb0" />
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/754a4834-425a-4b36-8438-0c0a2064fdb0"
+    width="700"
+  />
+</p>
 
 ## Telemetry
 Each request logs:
