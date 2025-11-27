@@ -1,0 +1,102 @@
+/* Background */
+body {
+    background-color: #f3b7c5;   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.container {
+    width: 600px;
+    background: #ffe1ec;        
+    margin: 0 auto;
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #424242;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #6f6f6f;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    color: #555;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 110px;
+    border: 1px solid #c999b6;  
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    resize: vertical;
+    background: white;
+}
+
+/* Dropdown */
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c999b6;
+    border-radius: 8px;
+    background: white;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #c999b6;  
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b889a6;  
+}
+
+/* Result card */
+.result {
+    margin-top: 35px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e3c8d3;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #777;
+}
+
+#answerText {
+    white-space: pre-wrap;
+}
+
+

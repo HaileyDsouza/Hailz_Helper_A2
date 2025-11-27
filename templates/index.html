@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hailz Helper</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="title">Hailz To the Rescue</h1>
+        <p class="subtitle">A simple tool to help me study.</p>
+
+        <!-- Main form -->
+        <form id="studyForm">
+
+            <!-- Notes box - optional -->
+            <label for="notes">Notes (Optional)</label>
+            <textarea id="notes" name="notes" placeholder="You can paste your notes here, or leave it empty to use my default notes."></textarea>
+
+            <!-- Question box -->
+            <label for="question">Question</label>
+            <textarea id="question" name="question" placeholder="Ask something you want explained or summarized."></textarea>
+
+            <!-- Mode selector -->
+            <label for="mode">Mode</label>
+            <select id="mode" name="mode">
+                <option value="general">General Question</option>
+                <option value="summary">Summary</option>
+                <option value="quiz">Quiz Questions</option>
+                <option value="explain">Explain Like I'm Five</option>
+            </select>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn">Run</button>
+        </form>
+
+        <!-- Answer box -->
+        <div id="resultBox" class="result hidden">
+            <h2>Answer</h2>
+            <div id="answerText"></div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            Please Enjoy Hailz Helper
+        </div>
+
+    </div>
+
+    <script>
+        async function runQuery() {
+        const question = document.getElementById("question").value;
+        const notes = document.getElementById("notes").value;
+        const mode = document.getElementById("mode").value;
+        const output = document.getElementById("output");
+
+        // Prevent running with empty input
+        if (!question.trim()) {
+            output.innerHTML = "<p>Please enter a question </p>";
+            return;
+        }
+
+        output.innerHTML = "<p>Working...</p>";
+
+        try {
+            const res = await fetch("/api/ask", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ question, notes, mode })
+            });
+
+            const data = await res.json();
+            output.innerHTML = `<p>${data.answer.replace(/\n/g, "<br>")}</p>`;
+        } catch (err) {
+            output.innerHTML = "<p>Sorry, something went wrong. Try again!</p>";
+        }
+    }
+    </script>
+
+</body>
+</html>
