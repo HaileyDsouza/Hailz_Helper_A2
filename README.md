@@ -140,16 +140,16 @@ Repo includes:
 ## How to run
 
 1. Clone repo
-'''
+```
 git clone https://github.com/HaileyDsouza/Hailz_Helper_A2
 
 cd Hailz_Helper_A2
-'''
+```
 
 2. Install dependencies
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 3. Add your Gemini API key
 
@@ -158,14 +158,14 @@ pip install -r requirements.txt
    Fill in your API key in the .env file
 
 4. Start the server
-'''
+```
 python app.py
 
-'''
+```
 Then open: http://127.0.0.1:5000/
 
 ## Folder Structure
-'''
+```
 Hailz_Helper_A2/
 ├── app.py
 ├── rag.py
@@ -189,4 +189,4 @@ Hailz_Helper_A2/
 │
 └── cache/
   └── answers.json   (auto-created after first run)
-  '''
+  ```
