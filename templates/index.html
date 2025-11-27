@@ -49,21 +49,26 @@
 
     </div>
 
-    
+
     <script>
-        async function runQuery() {
+        document.getElementById("studyForm").addEventListener("submit", async function (e) {
+        e.preventDefault(); // stop page refresh
+
         const question = document.getElementById("question").value;
         const notes = document.getElementById("notes").value;
         const mode = document.getElementById("mode").value;
-        const output = document.getElementById("output");
 
-        // Prevent running with empty input
+        const answerBox = document.getElementById("answerText");
+        const resultBox = document.getElementById("resultBox");
+
         if (!question.trim()) {
-            output.innerHTML = "<p>Please enter a question </p>";
+            answerBox.innerHTML = "<p>Please enter a question!</p>";
+            resultBox.classList.remove("hidden");
             return;
         }
 
-        output.innerHTML = "<p>Working...</p>";
+        answerBox.innerHTML = "<p>Working...</p>";
+        resultBox.classList.remove("hidden");
 
         try {
             const res = await fetch("/api/ask", {
@@ -73,12 +78,14 @@
             });
 
             const data = await res.json();
-            output.innerHTML = `<p>${data.answer.replace(/\n/g, "<br>")}</p>`;
+            answerBox.innerHTML = data.answer.replace(/\n/g, "<br>");
         } catch (err) {
-            output.innerHTML = "<p>Sorry, something went wrong. Try again!</p>";
+            console.error(err);
+            answerBox.innerHTML = "<p>Sorry, something went wrong. Try again.</p>";
         }
-    }
+    });
     </script>
+
 
 </body>
 </html>
