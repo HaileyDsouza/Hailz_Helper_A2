@@ -3,7 +3,6 @@
 ## Overview
 
 Haliz Helper is an AI powered study tool that helps users learn healthy eating concepts in a simple and supportive way. 
-
 Users are able to paste notes or use the default notes, ask a question and pick a mode:
 
 GENERAL QUESTION - SUMMARY - QUIZ - EXPLAIN LIKE I'M FIVE
