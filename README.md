@@ -20,23 +20,24 @@ The tone is friendly and feels like a study buddy who just wants you to understa
 
 ## Question Demo
 <p align="center">
-  <img src="assets/question.gif" width="450">
+  <img src="assets/question.gif" width="650">
 </p>
 
 ## Summary Demo
 <p align="center">
-  <img src="assets/summary.gif" width="450">
+  <img src="assets/summary.gif" width="650">
 </p>
 
 ## Quiz Demo
 <p align="center">
-  <img src="assets/quiz.gif" width="450">
+  <img src="assets/quiz.gif" width="650">
 </p>
 
 ## Explaination Demo
 <p align="center">
-  <img src="assets/explain.gif" width="450">
+  <img src="assets/explain.gif" width="650">
 </p>
+
 ## Core Feature
 Users interact with a real, working end-to-end flow:
 
@@ -75,7 +76,7 @@ The app includes:
   - Error handling so the app never crashes in the UI
 
 <p align="center">
-  <img src="assets/saftey.gif" width="450">
+  <img src="assets/saftey.gif" width="650">
 </p>
 
 <img width="866" height="636" alt="image" src="https://github.com/user-attachments/assets/754a4834-425a-4b36-8438-0c0a2064fdb0" />
