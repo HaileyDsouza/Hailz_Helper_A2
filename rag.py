@@ -102,8 +102,12 @@ def get_rag_answer(question, user_notes="", mode="general"):
 
     if mode == "summary":
         task_instruction = (
-            "Summarize the key points from the notes in 3–5 short bullet points. "
-            "Keep the language simple and clear."
+            "Summarize the key points from the notes in EXACTLY 3–5 bullet points.\n"
+            "IMPORTANT RULES:\n"
+            "• Every bullet MUST start with '•'.\n"
+            "• Each bullet MUST be on its own line.\n"
+            "• Never use paragraphs.\n"
+            "• Never use '-' or '*' — ONLY '•'."
         )
     elif mode == "quiz":
         task_instruction = (

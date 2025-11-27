@@ -8,10 +8,11 @@ API_URL = "http://127.0.0.1:5000/api/ask"
 
 def run_single_test(test):
     payload = {
-        "text": test["input"],
-        "mode": test.get("mode", "general"),
-        "notes": ""
+    "question": test["input"],
+    "mode": test.get("mode", "general"),
+    "notes": ""
     }
+
 
     try:
         r = requests.post(API_URL, json=payload, timeout=10)

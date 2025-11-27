@@ -25,7 +25,7 @@ def ask():
     # Safety check
     if not is_safe_input(question):
         return jsonify({
-            "answer": "Sorry!! Unsafe input. Please rephrase your question."
+            "answer": "Sorry, I cannot help with that request. It violates my safety rules."
         })
 
     # Empty input guard
