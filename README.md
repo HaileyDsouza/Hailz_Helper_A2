@@ -19,16 +19,24 @@ The tone is friendly and feels like a study buddy who just wants you to understa
 <img width="852" height="783" alt="image" src="https://github.com/user-attachments/assets/c07fa0fd-c4be-4572-bbcf-1d48e2f62f9f" />
 
 ## Question Demo
-
+<p align="center">
+  <img src="assets/question.gif" width="450">
+</p>
 
 ## Summary Demo
-
+<p align="center">
+  <img src="assets/summary.gif" width="450">
+</p>
 
 ## Quiz Demo
-
+<p align="center">
+  <img src="assets/quiz.gif" width="450">
+</p>
 
 ## Explaination Demo
-
+<p align="center">
+  <img src="assets/explain.gif" width="450">
+</p>
 ## Core Feature
 Users interact with a real, working end-to-end flow:
 
