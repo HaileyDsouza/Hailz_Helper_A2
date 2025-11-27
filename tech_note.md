@@ -6,8 +6,10 @@
 Haliz Helper is an AI powered study tool that helps users learn healthy eating concepts in a simple and supportive way. 
 Users are able to paste notes or use the default notes, ask a question and pick a mode:
 GENERAL QUESTION - SUMMARY - QUIZ - EXPLAIN LIKE I'M FIVE
+
 The App runs through a RAG pipeline so the answers are always created based on the notes. 
-My goal was to build an App that is fun to use, efficent and educational. The deisgn mkaes sure to use notes instead of the model making it's own assumptions.
+My goal was to build an App that is fun to use, efficent and educational.
+The deisgn mkaes sure to use notes instead of the model making it's own assumptions.
 ```
 
 
