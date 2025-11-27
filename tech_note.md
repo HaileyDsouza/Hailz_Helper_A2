@@ -14,6 +14,7 @@ My goal was to build an App that is fun to use, efficent and educational. The de
 
 ## System Architecture
 
+```
 ┌──────────────────────────────┐
 │          Frontend            │
 │  index.html + style.css      │
@@ -56,6 +57,7 @@ My goal was to build an App that is fun to use, efficent and educational. The de
 │ • whether answer came from cache         │
 │ → logged to requests.log                 │
 └──────────────────────────────────────────┘
+```
 
 ## Saftey and Guardrails
 
