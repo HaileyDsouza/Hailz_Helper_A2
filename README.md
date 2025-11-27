@@ -115,7 +115,12 @@ I created:
 
   - run_tests.py which runs all tests and prints a pass rate
 
-<img width="725" height="534" alt="image" src="https://github.com/user-attachments/assets/f498d9ed-0c28-404b-a759-9231369a54bb" />
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/f498d9ed-0c28-404b-a759-9231369a54bb"
+    width="700"
+  />
+</p>
 
 ## Reproducibility
 Repo includes:
