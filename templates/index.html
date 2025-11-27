@@ -70,6 +70,7 @@
         answerBox.innerHTML = "<p>Working...</p>";
         resultBox.classList.remove("hidden");
 
+        
         try {
             const res = await fetch("/api/ask", {
                 method: "POST",
