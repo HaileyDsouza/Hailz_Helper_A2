@@ -206,6 +206,9 @@ Hailz_Helper_A2/
 ├── README.md
 ├── tech_note.md
 │
+├── assets/
+│   └── (gifs)
+│ 
 ├── templates/
 │   └── index.html
 │
@@ -216,5 +219,5 @@ Hailz_Helper_A2/
 │   └── notes.txt
 │
 └── cache/
-  └── answers.json   (auto-created after first run)
+  └── answers.json   (is auto-created after first run)
   ```
