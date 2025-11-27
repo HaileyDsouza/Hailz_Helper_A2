@@ -65,6 +65,11 @@
     "expect_contains": ["•"]
   },
   {
+    "input": "If I want to get bigger, how much protein do I need?",
+    "mode": "general",
+    "expect_contains": ["protein"]
+  },
+  {
     "input": "If I want to look good, how much protein do I need?",
     "mode": "general",
     "expect_contains": ["protein"]

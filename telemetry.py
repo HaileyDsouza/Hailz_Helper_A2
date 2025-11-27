@@ -7,6 +7,7 @@ LOG_PATH = "logs/requests.log"
 def log_request(question, mode, cache_hit, latency):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+
     entry = (
         f"{timestamp} | "
         f"mode={mode} | "

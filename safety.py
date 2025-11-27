@@ -1,7 +1,6 @@
 import re
 
 # Simple prompt-injection and to check for unsafe input
-
 Bad_words = [
     "starve",
     "stop eating",
