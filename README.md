@@ -74,6 +74,10 @@ The app includes:
 
   - Error handling so the app never crashes in the UI
 
+<p align="center">
+  <img src="assets/saftey.gif" width="450">
+</p>
+
 <img width="866" height="636" alt="image" src="https://github.com/user-attachments/assets/754a4834-425a-4b36-8438-0c0a2064fdb0" />
 
 ## Telemetry
