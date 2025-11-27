@@ -20,7 +20,7 @@ The tone is friendly and feels like a study buddy who just wants you to understa
 
 ## Question Demo
 <p align="center">
-  <img src="assets/question.gif" width="650">
+  <img src="assets/question.gif" width="800">
 </p>
 
 ## Summary Demo
