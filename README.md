@@ -208,6 +208,7 @@ Hailz_Helper_A2/
 │
 ├── assets/
 │   └── (gifs)
+│   └── (demo video)
 │ 
 ├── templates/
 │   └── index.html
