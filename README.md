@@ -1,8 +1,8 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1114991f-6fdb-41b7-a564-0d16da94a38f" />
 
-# DEMO 
+## DEMO 
 
-Can be found in the assests folder
+Can be found here: https://drive.google.com/drive/folders/1vmjGFpRkf0Ptjgr7FmYUmLAYmhudUbBm?usp=drive_link
 
 
 # Hailz Helper – Healthy Eating Study Buddy
