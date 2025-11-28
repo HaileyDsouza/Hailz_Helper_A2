@@ -113,6 +113,26 @@ The limits I noticed are:
 
 - Output Variations
   - Some outputs don't fully match the test expectations
+
+## Nice to Haves
+
+1. Caching
+   - Responsible caching is implemented in the rag.py using answers.json
+   - The app includes a lightweight response caching using the json file.
+   - Where repeated questions return instantly wihtout re using Gemini.
+
+2. UX
+   - I added small UI touches like a centered layout, clean spacing, a loading message
+   - Making the app more personal and easy to use
+
+3. Embedding Caching (chunk embedding)
+
+4. Readibility of output
+   - Have bullet points in the prompt
+   - Replaced \n with <br> for cleaner rendering
+
+5. Optional Notes Input
+   - UX flexibility where users can paste custom notes or leave it empty
   
 ## Conclusion
 
