@@ -2,8 +2,8 @@
 
 ## DEMO 
 
-Can be found here: https://drive.google.com/drive/folders/1vmjGFpRkf0Ptjgr7FmYUmLAYmhudUbBm?usp=drive_link
-
+Can be found here in this folder: https://drive.google.com/drive/folders/1vmjGFpRkf0Ptjgr7FmYUmLAYmhudUbBm?usp=drive_link
+And in this file: https://drive.google.com/file/d/1tah60eKEhv4QuYsvqzVSjWxlHc1Uu3pb/view?usp=drive_link
 
 # Hailz Helper – Healthy Eating Study Buddy
 
