@@ -1,5 +1,10 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1114991f-6fdb-41b7-a564-0d16da94a38f" />
 
+# DEMO 
+
+Can be found in the assests folder
+
+
 # Hailz Helper – Healthy Eating Study Buddy
 
 Hailz Helper is a small, clean LLM-powered study tool that helps students understand healthy eating concepts.
@@ -208,7 +213,6 @@ Hailz_Helper_A2/
 │
 ├── assets/
 │   └── (gifs)
-│   └── (demo video)
 │ 
 ├── templates/
 │   └── index.html
